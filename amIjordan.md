@@ -4,5 +4,5 @@ layout: default
 ---
 
 <p align="center">
-# NO
+<b>NO</b>
 </p>
