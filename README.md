@@ -8,4 +8,4 @@ Check out my code at: [github.com/jordanfb](https://github.com/jordanfb)
 Contact me at: [jfaasbush@gmail.com](mailto:jfaasbush@gmail.com)
 
 
-![Non-Orbital](jordanfb.github.io/planetFLybyPresentation.PNG)
+![Non-Orbital](https://jordanfb.github.io/planetFLybyPresentation.PNG)
