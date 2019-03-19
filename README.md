@@ -1,4 +1,8 @@
-## This website is a work in progress!
+## I'm Jordan Faas-Bush
+Here's my resume: [pdf](https://drive.google.com/file/d/147DIoEWiG1h01Kpcx50TIX-owGP6rEhs/view?usp=sharing) [google doc](https://docs.google.com/document/d/14-Ds21h6KN6pABaarOmOIMtYxzzYgPCjcv4rJTjM3co/edit?usp=sharing)
+
+Connect to me on linkedin [jordan-faas-bush](https://www.linkedin.com/in/jordan-faas-bush/)
+
 Check out my games at: [jordanfb.itch.io](https://jordanfb.itch.io)
 
 Follow me on twitter: [@quickpocket](https://twitter.com/quickpocket)
