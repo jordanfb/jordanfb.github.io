@@ -1,0 +1,479 @@
+@font-face {
+    font-family: montserrat-italics;
+    font-style: italic;
+    src: url('fonts/Montserrat-LightItalic.otf') format('opentype'), url(http://fonts.googleapis.com/css?family=Montserrat);
+}
+
+@font-face {
+    font-family: montserrat-bold;
+    font-style: bold;
+    src: url('fonts/Montserrat-SemiBold.otf') format('opentype'), url(http://fonts.googleapis.com/css?family=Montserrat);
+}
+
+@font-face {
+    font-family: montserrat;
+    font-style: normal;
+    src: url('fonts/Montserrat-Light.otf') format('opentype'), url(http://fonts.googleapis.com/css?family=Montserrat);
+}
+
+
+body {
+    margin: 0;
+    background: #000000;
+}
+
+body, html {
+  height: 100%;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("Images/ToothPike Logo White.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+* {
+    padding:0px;
+    margin:0px;
+}
+
+.sky {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+    object-fit: auto;
+    background-image: url("Images/ToothPike Logo White.png");
+    background-repeat: no-repeat;
+}
+
+.hacker-container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    object-fit: auto;
+    background-attachment: top;
+    /*background-color: #FFFFFF;*/
+    background-size: contain;
+}
+
+.center-logo-email {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: auto;
+    text-align: center;
+/*    background-position: center;
+    background-size: contain;
+    background-image: url("Images/ToothPike Logo White.gif");
+    background-repeat: no-repeat;*/
+}
+
+.center-logo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 10%;
+    top: 10%;
+    /*object-fit: auto;
+    text-align: center;*/
+    /*vertical-align: center;*/
+/*    background-position: center;
+    background-size: contain;
+    background-image: url("Images/ToothPike Logo White.gif");
+    background-repeat: no-repeat;*/
+}
+
+.left-of-center {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: auto;
+    text-align: right;
+    text-anchor: right;
+    /*background-position: center;
+    background-size: contain;
+    background-image: url("Images/ToothPike Logo White.gif");
+    background-repeat: no-repeat;*/
+}
+
+.right-of-center {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: auto;
+    text-align: left;
+    text-anchor: left;
+/*    background-position: center;
+    background-size: contain;
+    background-image: url("Images/ToothPike Logo White.gif");
+    background-repeat: no-repeat;
+*/}
+
+.hackergif {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: top;
+    background-image: url("Images/hackerviewhack.gif");
+    background-repeat: no-repeat;
+}
+
+.hackergiffixed {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: auto;
+    background-position: center;
+    background-size: cover;
+    background-attachment: top;
+    background-image: url("Images/hackerviewhack.gif");
+    background-repeat: no-repeat;
+}
+
+.top-menu {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    object-fit: auto;
+/*    background-position: center;
+    background-size: cover;
+    background-attachment: top;
+    background-image: url("Images/hackerviewhack.gif");
+    background-repeat: no-repeat;*/
+    z-index: 1;
+}
+
+.middle-menu {
+    position: relative;
+    top: -150px;
+    left: 50%;
+    width: 50%;
+    height: 150px;
+
+    /*text-align: center;*/
+    /*object-fit: auto;*/
+/*    background-position: center;
+    background-size: cover;
+    background-attachment: top;
+    background-image: url("Images/hackerviewhack.gif");
+    background-repeat: no-repeat;*/
+    z-index: 1;
+}
+
+.dot-center{
+    position: relative;
+    left:-150px;
+}
+
+.dot {
+  height: 300px;
+  width: 300px;
+  /*background-color: #bbb;*/
+  background-color: #000;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.herologo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: auto;
+    background-position: center;
+    background-size: contain;
+    background-image: url("Images/ToothPike Logo White.gif");
+    background-repeat: no-repeat;
+}
+
+
+.foreground-trees {
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    object-fit: auto;
+    background-image: url("Images/ToothPike Logo White.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.midground-trees {
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    object-fit: auto;
+    background-image: url("Images/ToothPike Logo White.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+/*WELCOME*/
+.welcome-block {
+    height: inherit;
+    display: block;
+    /*position: relative;*/
+    text-align: center;
+    top: 100%;
+    padding-top: 100px;
+}
+
+#navlist li
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+
+
+
+/*
+canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}*/
+
+
+/* link colors */
+a:link {
+    color: #cccccc;
+    text-decoration-color: #00000000;
+}
+a:visited {
+    color: #cccccc;
+    text-decoration-color: #00000000;
+}
+a:hover {
+    color: white;
+    text-decoration-color: #00000000;
+}
+a:active {
+    color: white;
+    text-decoration-color: #00000000;
+}
+
+
+.outlinebutton {
+    font-family: montserrat-italics, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #cccccc;
+    text-align: center;
+    text-decoration: none;
+
+    padding-left: 11px;
+    padding-right: 11px;
+    margin-left: 3px;
+    margin-top: 10px;
+
+    box-shadow: 0 0 0 1pt #cccccc;
+
+    height: 36px;
+    border-radius: 0px;
+    font-size: 15pt;
+
+    border: none;
+    background: #00000000;
+    
+    cursor: pointer;
+    -webkit-appearance: none;
+}
+.outlinebutton:hover {
+    color: white;
+    box-shadow: 0 0 0 1pt white;
+    background-color: #222;
+}
+
+
+#about-text {
+    position: absolute;
+
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+
+    top: 20%;
+    left: 50%;
+    margin-left: -10px;
+    margin-top: 40px;
+    padding: 5px;
+    text-align: center;
+    font-size: 12pt;
+
+    transform: translateX(-50%);
+    background: #00000088;
+}
+
+#about-headline {
+    position: absolute;
+
+    font-family: montserrat-bold, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: white;
+
+    top: 20%;
+    left: 50%;
+    margin-left: -10px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18pt;
+
+    transform: translateX(-50%);
+    background: #00000088;
+}
+
+@media screen and (min-width: 1201px) {
+
+    #description-text {
+        position: absolute;
+
+        font-family: montserrat-italics, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        color: white;
+
+        top: 59.5%;
+        left: 50%;
+        margin-left: -10px;
+        padding: 5px;
+        text-align: center;
+        font-size: 12pt;
+
+        transform: translateX(-50%);
+        background: #00000088;
+    }
+
+
+    #games-link {
+        position: absolute;
+
+        top: 100%;
+        left: 50%;
+        margin-top: -280px;
+        text-align: center;
+
+        transform: translateX(-50%);
+    }
+
+    #press-kit-link {
+        position: relative;
+
+        top: 100%;
+        left: 50%;
+        text-align: center;
+
+        transform: translateX(-50%);
+    }
+
+    #about-link {
+        position: absolute;
+
+        top: 100%;
+        left: 50%;
+        margin-top: -230px;
+        text-align: center;
+
+        transform: translateX(-50%);
+    }
+
+
+    #description-links {
+        position: absolute;
+
+        font-family: montserrat-italics, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        color: #cccccc;
+
+        top: 100%;
+        margin-top: -130px;
+        left: 50%;
+        text-align: center;
+        font-size: 12pt;
+
+        line-height: 20pt;
+
+        transform: translateX(-50%);
+
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    #description-text {
+        position: absolute;
+
+        font-family: montserrat-italics, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        color: white;
+
+        top: 26%;
+        left: 50%;
+        margin-left: -10px;
+        padding: 5px;
+        text-align: center;
+        font-size: 12pt;
+
+        transform: translateX(-50%);
+        background: #00000088;
+    }
+
+    #games-link {
+        position: absolute;
+
+        top: 100%;
+        left: 50%;
+        margin-top: -280px;
+        text-align: center;
+
+        transform: translateX(-50%);
+    }
+
+    #about-link {
+        position: absolute;
+
+        top: 100%;
+        left: 50%;
+        margin-top: -230px;
+        text-align: center;
+
+        transform: translateX(-50%);
+    }
+
+    #description-links {
+        position: absolute;
+
+        font-family: montserrat-italics, sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        color: #cccccc;
+
+        top: 100%;
+        margin-top: -130px;
+
+        left: 50%;
+        text-align: center;
+        font-size: 12pt;
+
+        line-height: 20pt;
+
+        transform: translateX(-50%);
+
+    }
+}
