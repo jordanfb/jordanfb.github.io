@@ -145,7 +145,7 @@ body, html {
 .top-menu {
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 50px;
     object-fit: auto;
 /*    background-position: center;
     background-size: cover;
@@ -160,7 +160,7 @@ body, html {
     top: -150px;
     left: 50%;
     width: 50%;
-    height: 150px;
+    height: 0px;
 
     /*text-align: center;*/
     /*object-fit: auto;*/
@@ -171,20 +171,12 @@ body, html {
     background-repeat: no-repeat;*/
     z-index: 1;
 }
-
+/*
 .dot-center{
     position: relative;
     left:-150px;
-}
+}*/
 
-.dot {
-  height: 300px;
-  width: 300px;
-  /*background-color: #bbb;*/
-  background-color: #000;
-  border-radius: 50%;
-  display: inline-block;
-}
 
 .herologo {
     position: relative;
@@ -195,6 +187,23 @@ body, html {
     background-size: contain;
     background-image: url("Images/ToothPike Logo White.gif");
     background-repeat: no-repeat;
+}
+
+
+.main-body {
+    position: relative;
+    /*top:-250px;*/
+}
+
+.aweber-form {
+    position: relative;
+    left:50%;
+    width:50%;
+    height:50%;
+}
+
+.aweber-form-container {
+    
 }
 
 
@@ -337,7 +346,8 @@ a:active {
     background: #00000088;
 }
 
-@media screen and (min-width: 1201px) {
+/*for desktop and wide screens*/
+@media screen and (min-width: 1481px) {
 
     #description-text {
         position: absolute;
@@ -370,14 +380,39 @@ a:active {
         transform: translateX(-50%);
     }
 
+    #dot-center{
+        position: relative;
+        left:-150px;
+    }
+
+    #dot {
+      height: 300px;
+      width: 300px;
+      /*background-color: #bbb;*/
+      background-color: #000;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+
     #press-kit-link {
         position: relative;
 
-        top: 100%;
-        left: 50%;
+        left: -25%;
+        top: 10px;
         text-align: center;
 
-        transform: translateX(-50%);
+/*        transform: translateX(-50%);*/
+    }
+
+    #buttonlist li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 20px;
+    }
+
+    #buttonlist-div {
+        /*background: blue;*/
     }
 
     #about-link {
@@ -413,7 +448,8 @@ a:active {
     }
 }
 
-@media screen and (max-width: 1200px) {
+/*This is for mobile devices*/
+@media screen and (max-width: 1480px) {
 
     #description-text {
         position: absolute;
@@ -443,6 +479,45 @@ a:active {
         text-align: center;
 
         transform: translateX(-50%);
+    }
+
+    #dot-center{
+        position: relative;
+        left:-100px;
+        top:50px;
+    }
+
+    #dot {
+      height: 200px;
+      width: 200px;
+      /*background-color: #bbb;*/
+      background-color: #000;
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    #press-kit-link {
+/*        position: relative;
+
+        left: -25%;
+        top: 10px;
+        text-align: right;
+*/
+/*        transform: translateX(-50%);*/
+        position: relative;
+    }
+
+    #buttonlist li {
+        display: inline;
+        list-style-type: none;
+        padding-right: 20px;
+
+                position: relative;
+
+        left: -25%;
+        top: 10px;
+        text-align: right;
+
     }
 
     #about-link {
