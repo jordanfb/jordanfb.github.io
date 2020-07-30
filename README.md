@@ -1,7 +1,10 @@
 ## I'm Jordan Faas-Bush
-Here's my resume: [pdf](https://drive.google.com/file/d/147DIoEWiG1h01Kpcx50TIX-owGP6rEhs/view?usp=sharing)/[google doc](https://docs.google.com/document/d/14-Ds21h6KN6pABaarOmOIMtYxzzYgPCjcv4rJTjM3co/edit?usp=sharing)
 
-[You're likely looking for toothpike.com to see my indie game studio!](http://toothpike.com)
+[You're likely looking for toothpike.com!](http://toothpike.com)
+
+
+
+Here's my resume: [pdf](https://drive.google.com/file/d/147DIoEWiG1h01Kpcx50TIX-owGP6rEhs/view?usp=sharing)/[google doc](https://docs.google.com/document/d/14-Ds21h6KN6pABaarOmOIMtYxzzYgPCjcv4rJTjM3co/edit?usp=sharing)
 
 Connect to me on linkedin [jordan-faas-bush](https://www.linkedin.com/in/jordan-faas-bush/)
 
