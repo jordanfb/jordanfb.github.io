@@ -298,6 +298,8 @@ a:active {
   display: inline-block;
   font-size: 16px;
   float:left;
+  cursor: pointer;
+  -webkit-appearance: none;
 }
 
 .basicbutton:hover {
@@ -314,6 +316,8 @@ a:active {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  cursor: pointer;
+  -webkit-appearance: none;
 }
 
 .basicbuttonnofloat:hover {
