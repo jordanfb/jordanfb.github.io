@@ -1,6 +1,6 @@
 ## I'm Jordan Faas-Bush
 
-[You're likely looking for toothpike.com!](http://toothpike.com)
+[You should check out toothpike.com!](http://toothpike.com)
 
 
 
