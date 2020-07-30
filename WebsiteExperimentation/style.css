@@ -212,13 +212,6 @@ body, html {
     background-color: black;
 }
 
-.aweber-form {
-    position: relative;
-    left:25%;
-    width:50%;
-    height:50%;
-}
-
 
 .foreground-trees {
     position: absolute;
@@ -503,6 +496,13 @@ a:active {
         width:50%;
     }
 
+    #aweber-form {
+        position: relative;
+        left:25%;
+        width:50%;
+        height:50%;
+    }
+
     #about-link {
         position: absolute;
 
@@ -560,8 +560,16 @@ a:active {
 
     #aweber-form-container {
         position:relative;
-        /*width:100%;*/
-        /*left:-25%;*/
+        top:50px;
+/*        width:200vw;
+        left:-50vw;
+*/    }
+
+    #aweber-form {
+        position: relative;
+/*        left:25%;
+        width:50%;
+*/        height:50%;
     }
 
     #games-link {
