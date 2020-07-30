@@ -1,19 +1,19 @@
 @font-face {
-    font-family: montserrat-italics;
+    font-family: raleway-italics;
     font-style: italic;
-    src: url('fonts/Montserrat-LightItalic.otf') format('opentype'), url(http://fonts.googleapis.com/css?family=Montserrat);
+    src: url('fonts/Raleway-LightItalic.otf') format('opentype'), url(http://fonts.googleapis.com/css?family=Raleway);
 }
 
 @font-face {
-    font-family: montserrat-bold;
+    font-family: raleway-bold;
     font-style: bold;
-    src: url('fonts/Montserrat-SemiBold.otf') format('opentype'), url(http://fonts.googleapis.com/css?family=Montserrat);
+    src: url('fonts/Raleway-SemiBold.otf') format('opentype'), url(http://fonts.googleapis.com/css?family=Raleway);
 }
 
 @font-face {
-    font-family: montserrat;
+    font-family: raleway;
     font-style: normal;
-    src: url('fonts/Montserrat-Light.otf') format('opentype'), url(http://fonts.googleapis.com/css?family=Montserrat);
+    src: url('fonts/Raleway-Light.otf') format('opentype'), url(http://fonts.googleapis.com/css?family=Raleway);
 }
 
 
@@ -26,33 +26,10 @@ body, html {
   height: 100%;
 }
 
-.parallax {
-  /* The image used */
-  background-image: url("Images/ToothPike Logo White.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 
 * {
     padding:0px;
     margin:0px;
-}
-
-.sky {
-    position: relative;
-    width: 100%;
-    height: 1000px;
-    object-fit: auto;
-    background-image: url("Images/ToothPike Logo White.png");
-    background-repeat: no-repeat;
 }
 
 .hacker-container {
@@ -91,32 +68,6 @@ body, html {
     background-image: url("Images/ToothPike Logo White.gif");
     background-repeat: no-repeat;*/
 }
-
-.left-of-center {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: auto;
-    text-align: right;
-    text-anchor: right;
-    /*background-position: center;
-    background-size: contain;
-    background-image: url("Images/ToothPike Logo White.gif");
-    background-repeat: no-repeat;*/
-}
-
-.right-of-center {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: auto;
-    text-align: left;
-    text-anchor: left;
-/*    background-position: center;
-    background-size: contain;
-    background-image: url("Images/ToothPike Logo White.gif");
-    background-repeat: no-repeat;
-*/}
 
 .hackergif {
     position: relative;
@@ -161,14 +112,6 @@ body, html {
     left: 50%;
     width: 50%;
     height: 60px;
-
-    /*text-align: center;*/
-    /*object-fit: auto;*/
-/*    background-position: center;
-    background-size: cover;
-    background-attachment: top;
-    background-image: url("Images/hackerviewhack.gif");
-    background-repeat: no-repeat;*/
     z-index: 1;
 }
 
@@ -177,32 +120,12 @@ body, html {
     width: 100%;
     height: 200px;
     object-fit: auto;
-    text-align: center;
 /*    background-position: center;
     background-size: cover;
     background-attachment: top;
     background-image: url("Images/hackerviewhack.gif");
     background-repeat: no-repeat;*/
 }
-
-/*
-.dot-center{
-    position: relative;
-    left:-150px;
-}*/
-
-
-.herologo {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: auto;
-    background-position: center;
-    background-size: contain;
-    background-image: url("Images/ToothPike Logo White.gif");
-    background-repeat: no-repeat;
-}
-
 
 .main-body {
     position: relative;
@@ -213,53 +136,31 @@ body, html {
 }
 
 
-.foreground-trees {
-    position: absolute;
-    width: 100%;
-    height: 1000px;
-    object-fit: auto;
-    background-image: url("Images/ToothPike Logo White.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 15%;
+  padding: 0px;
+  display: inline-block;
+  margin-left: 9%;
+  margin-right: 9%;
 }
 
-.midground-trees {
-    position: absolute;
-    width: 100%;
-    height: 1000px;
+.row {
+    width:100%;
     object-fit: auto;
-    background-image: url("Images/ToothPike Logo White.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
-}
-
-/*WELCOME*/
-.welcome-block {
-    height: inherit;
-    display: block;
-    /*position: relative;*/
     text-align: center;
-    top: 100%;
-    padding-top: 100px;
+    /*background-color: blue;*/
+    margin-right: auto;
+    margin-left: auto;
 }
 
-#navlist li
-{
-display: inline;
-list-style-type: none;
-padding-right: 20px;
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
-
-
-
-/*
-canvas {
-    width: 100%;
-    height: 100%;
-    display: block;
-}*/
 
 
 /* link colors */
@@ -318,111 +219,8 @@ a:active {
   color: black;
 }
 
-.outlinebutton {
-    float:left;
-    font-family: montserrat-italics, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    color: #cccccc;
-    text-align: center;
-    text-decoration: none;
-
-    padding-left: 11px;
-    padding-right: 11px;
-    margin-left: 3px;
-    margin-top: 10px;
-
-    box-shadow: 0 0 0 1pt #cccccc;
-
-    height: 36px;
-    border-radius: 3px;
-    font-size: 15pt;
-
-    border: none;
-    background: #00000000;
-    
-    cursor: pointer;
-    -webkit-appearance: none;
-}
-.outlinebutton:hover {
-    color: white;
-    box-shadow: 0 0 0 1pt white;
-    background-color: #222;
-}
-
-
-#about-text {
-    position: absolute;
-
-    font-family: montserrat, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    color: white;
-
-    top: 20%;
-    left: 50%;
-    margin-left: -10px;
-    margin-top: 40px;
-    padding: 5px;
-    text-align: center;
-    font-size: 12pt;
-
-    transform: translateX(-50%);
-    background: #00000088;
-}
-
-#about-headline {
-    position: absolute;
-
-    font-family: montserrat-bold, sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    color: white;
-
-    top: 20%;
-    left: 50%;
-    margin-left: -10px;
-    padding: 5px;
-    text-align: center;
-    font-size: 18pt;
-
-    transform: translateX(-50%);
-    background: #00000088;
-}
-
 /*for desktop and wide screens*/
 @media screen and (min-width: 1481px) {
-
-    #description-text {
-        position: absolute;
-
-        font-family: montserrat-italics, sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        color: white;
-
-        top: 59.5%;
-        left: 50%;
-        margin-left: -10px;
-        padding: 5px;
-        text-align: center;
-        font-size: 12pt;
-
-        transform: translateX(-50%);
-        background: #00000088;
-    }
-
-
-    #games-link {
-        position: absolute;
-
-        top: 100%;
-        left: 50%;
-        margin-top: -280px;
-        text-align: center;
-
-        transform: translateX(-50%);
-    }
 
     #dot-center{
         position: relative;
@@ -439,17 +237,6 @@ a:active {
     }
 
 
-    #press-kit-link {
-        position: relative;
-
-/*        left: -25%;
-        top: 10px;
-        text-align: center;*/
-
-/*        transform: translateX(-50%);*/
-    }
-
-
     #studioinfo {
         position:relative;
         background-color: #000f; /* 4CAF50 Green */
@@ -459,36 +246,19 @@ a:active {
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        width:50%;
-        height:100%;
+        width:40%;
+        /*height:500px;*/
+        padding-top: 5%;
+        padding-left: 5%;
+        padding-right: 5%;
         font-size: 2.2vw;
-        font-family: montserrat, sans-serif;
+        font-family: raleway, sans-serif;
         float:right;
-
-/*                float:right;
-        width:100%;
-        height:100%;*/
-/*        padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;*/
-    line-height: 78px;
-
-
-/*        left: -25%;
-        top: 10px;
-        text-align: center;*/
-
-/*        transform: translateX(-50%);*/
     }
 
-    #buttonlist li {
-        display: inline;
-        list-style-type: none;
-        padding-right: 20px;
-    }
-
-    #buttonlist-div {
-        /*background: blue;*/
+    #body-paragraph {
+        font-size: 2vw;
+        display:inline-block;
     }
 
     #aweber-form-container {
@@ -502,61 +272,10 @@ a:active {
         width:50%;
         height:50%;
     }
-
-    #about-link {
-        position: absolute;
-
-        top: 100%;
-        left: 50%;
-        margin-top: -230px;
-        text-align: center;
-
-        transform: translateX(-50%);
-    }
-
-
-    #description-links {
-        position: absolute;
-
-        font-family: montserrat-italics, sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        color: #cccccc;
-
-        top: 100%;
-        margin-top: -130px;
-        left: 50%;
-        text-align: center;
-        font-size: 12pt;
-
-        line-height: 20pt;
-
-        transform: translateX(-50%);
-
-    }
 }
 
 /*This is for mobile/narrow devices*/
 @media screen and (max-width: 1480px) {
-
-    #description-text {
-        position: absolute;
-
-        font-family: montserrat-italics, sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        color: white;
-
-        top: 26%;
-        left: 50%;
-        margin-left: -10px;
-        padding: 5px;
-        text-align: center;
-        font-size: 12pt;
-
-        transform: translateX(-50%);
-        background: #00000088;
-    }
 
     #aweber-form-container {
         position:relative;
@@ -569,18 +288,7 @@ a:active {
         position: relative;
 /*        left:25%;
         width:50%;
-*/        height:50%;
-    }
-
-    #games-link {
-        position: absolute;
-
-        top: 100%;
-        left: 50%;
-        margin-top: -280px;
-        text-align: center;
-
-        transform: translateX(-50%);
+*/        height:600px;
     }
 
     #dot-center{
@@ -598,99 +306,29 @@ a:active {
       display: inline-block;
     }
 
-    #press-kit-link {
-/*        position: relative;
-
-        left: -25%;
-        top: 10px;
-        text-align: right;
-*/
-/*        transform: translateX(-50%);*/
-        position: relative;
-    }
-
     #studioinfo {
         position:relative;
-        background-color: #000f; /* 4CAF50 Green */
+        background-color: #63CD74; /* 4CAF50 Green */
         border: none;
         color: white;
         /*padding: 15px 32px;*/
         text-align: center;
         text-decoration: none;
+        font-family: raleway, sans-serif;
         display: inline-block;
 
         float:right;
-        width:100%;
-        height:100%;
-        font-size: 2.2vw;
+        width:90%;
+/*        height:500px;
+*/        font-size: 3.3vh;
         padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    line-height: 78px;
-
-
-/*        
-.mission-body {
-    color: hsla(0,0%,100%,1.00);
-    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
-    text-align: center;
-    font-size: 2.2vw;
-    font-style: italic;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    line-height: 78px;
-}
-
-left: -25%;
-        top: 10px;
-        text-align: center;*/
-
-/*        transform: translateX(-50%);*/
+        padding-left: 5%;
+        padding-right: 5%;
+        line-height: 78px;
     }
 
-    #buttonlist li {
-        display: inline;
-        list-style-type: none;
-        padding-right: 20px;
-
-                position: relative;
-
-        left: -25%;
-        top: 10px;
-        text-align: right;
-
-    }
-
-    #about-link {
-        position: absolute;
-
-        top: 100%;
-        left: 50%;
-        margin-top: -230px;
-        text-align: center;
-
-        transform: translateX(-50%);
-    }
-
-    #description-links {
-        position: absolute;
-
-        font-family: montserrat-italics, sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        color: #cccccc;
-
-        top: 100%;
-        margin-top: -130px;
-
-        left: 50%;
-        text-align: center;
-        font-size: 12pt;
-
-        line-height: 20pt;
-
-        transform: translateX(-50%);
-
+    #body-paragraph {
+        font-size: 2vh;
+        display:inline-block;
     }
 }
