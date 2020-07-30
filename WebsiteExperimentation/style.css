@@ -160,7 +160,7 @@ body, html {
     top: -150px;
     left: 50%;
     width: 50%;
-    height: 0px;
+    height: 60px;
 
     /*text-align: center;*/
     /*object-fit: auto;*/
@@ -171,6 +171,20 @@ body, html {
     background-repeat: no-repeat;*/
     z-index: 1;
 }
+
+.bottom-menu {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    object-fit: auto;
+    text-align: center;
+/*    background-position: center;
+    background-size: cover;
+    background-attachment: top;
+    background-image: url("Images/hackerviewhack.gif");
+    background-repeat: no-repeat;*/
+}
+
 /*
 .dot-center{
     position: relative;
@@ -192,18 +206,17 @@ body, html {
 
 .main-body {
     position: relative;
+    width:100%;
+    height:100%;
     /*top:-250px;*/
+    background-color: black;
 }
 
 .aweber-form {
     position: relative;
-    left:50%;
+    left:25%;
     width:50%;
     height:50%;
-}
-
-.aweber-form-container {
-    
 }
 
 
@@ -275,7 +288,41 @@ a:active {
 }
 
 
+.basicbutton {
+  background-color: #000f; /* 4CAF50 Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float:left;
+}
+
+.basicbutton:hover {
+  background-color: #fff; /* Green */
+  color: black;
+}
+
+.basicbuttonnofloat {
+  background-color: #000f; /* 4CAF50 Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.basicbuttonnofloat:hover {
+  background-color: #fff; /* Green */
+  color: black;
+}
+
 .outlinebutton {
+    float:left;
     font-family: montserrat-italics, sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -291,7 +338,7 @@ a:active {
     box-shadow: 0 0 0 1pt #cccccc;
 
     height: 36px;
-    border-radius: 0px;
+    border-radius: 3px;
     font-size: 15pt;
 
     border: none;
@@ -398,9 +445,41 @@ a:active {
     #press-kit-link {
         position: relative;
 
-        left: -25%;
+/*        left: -25%;
         top: 10px;
+        text-align: center;*/
+
+/*        transform: translateX(-50%);*/
+    }
+
+
+    #studioinfo {
+        position:relative;
+        background-color: #000f; /* 4CAF50 Green */
+        border: none;
+        color: white;
+        /*padding: 15px 32px;*/
         text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        width:50%;
+        height:100%;
+        font-size: 2.2vw;
+        font-family: montserrat, sans-serif;
+        float:right;
+
+/*                float:right;
+        width:100%;
+        height:100%;*/
+/*        padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;*/
+    line-height: 78px;
+
+
+/*        left: -25%;
+        top: 10px;
+        text-align: center;*/
 
 /*        transform: translateX(-50%);*/
     }
@@ -413,6 +492,11 @@ a:active {
 
     #buttonlist-div {
         /*background: blue;*/
+    }
+
+    #aweber-form-container {
+        float:right;
+        width:50%;
     }
 
     #about-link {
@@ -448,7 +532,7 @@ a:active {
     }
 }
 
-/*This is for mobile devices*/
+/*This is for mobile/narrow devices*/
 @media screen and (max-width: 1480px) {
 
     #description-text {
@@ -468,6 +552,12 @@ a:active {
 
         transform: translateX(-50%);
         background: #00000088;
+    }
+
+    #aweber-form-container {
+        position:relative;
+        /*width:100%;*/
+        /*left:-25%;*/
     }
 
     #games-link {
@@ -505,6 +595,46 @@ a:active {
 */
 /*        transform: translateX(-50%);*/
         position: relative;
+    }
+
+    #studioinfo {
+        position:relative;
+        background-color: #000f; /* 4CAF50 Green */
+        border: none;
+        color: white;
+        /*padding: 15px 32px;*/
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+
+        float:right;
+        width:100%;
+        height:100%;
+        font-size: 2.2vw;
+        padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 78px;
+
+
+/*        
+.mission-body {
+    color: hsla(0,0%,100%,1.00);
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    text-align: center;
+    font-size: 2.2vw;
+    font-style: italic;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 78px;
+}
+
+left: -25%;
+        top: 10px;
+        text-align: center;*/
+
+/*        transform: translateX(-50%);*/
     }
 
     #buttonlist li {
