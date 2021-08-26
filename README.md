@@ -3,10 +3,8 @@
 [You should check out toothpike.com!](http://toothpike.com)
 
 [Here's the Steam page for Load Roll Die!](https://store.steampowered.com/app/1410140/Load_Roll_Die/)
-
- 
- 
- 
+<br>
+<br>
 Here's my resume: [pdf](https://drive.google.com/file/d/1XMs8OI3gzXFTimZ5iXfKpXeV_sREfxlS/view?usp=sharing)/[google doc](https://docs.google.com/document/d/1MJTo0MhF74IiQaXpGh_t3ftHvi78ALpRkzj3dMEE0yU/edit?usp=sharing)
 
 Connect to me on linkedin [jordan-faas-bush](https://www.linkedin.com/in/jordan-faas-bush/)
@@ -43,8 +41,6 @@ Non-Orbital, a top down spaceship building simulation game, team lead, lead prog
 ![picoCADPainter](https://github.com/jordanfb/jordanfb.github.io/blob/master/Images/picoCADPainterScreenshot.png)
 ![picoCADToolkit](https://github.com/jordanfb/jordanfb.github.io/blob/master/Images/picoCADToolkitScreenshot.png)
 Tools developed for editing [picoCAD](https://johanpeitz.itch.io/picocad) files, creator of both tools, implemented everything except for slight UI tweaks by Gokhan Solak
-
-
-
-
+<br>
+<br>
 [Are you Jordan?](./amIjordan.html)
