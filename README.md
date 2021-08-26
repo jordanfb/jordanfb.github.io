@@ -39,8 +39,8 @@ Hexagrowth, sole programmer, art by Grant Doney
 Non-Orbital, a top down spaceship building simulation game, team lead, lead programmer
 
 
-![picoCADPainter](https://github.com/jordanfb/jordanfb.github.io/blob/master/Images/picoCADPainterScreenshot.png)
-![picoCADToolkit](https://github.com/jordanfb/jordanfb.github.io/blob/master/Images/picoCADToolkitScreenshot.png)<br>
+![picoCADPainter](https://jordanfb.github.io/Images/picoCADPainterScreenshot.png)
+![picoCADToolkit](https://jordanfb.github.io/Images/picoCADToolkitScreenshot.png)<br>
 Tools developed for editing [picoCAD](https://johanpeitz.itch.io/picocad) files, creator of both tools, implemented everything except for slight UI tweaks by Gokhan Solak
 <br>
 <br>
