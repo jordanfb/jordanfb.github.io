@@ -19,12 +19,14 @@ Check out my code at: [github.com/jordanfb](https://github.com/jordanfb)
 Contact me at: [jfaasbush@gmail.com](mailto:jfaasbush@gmail.com)
 
 
-{% include youtubePlayer.html id="4phSGm36z_8" %}<br>
+{% include youtubePlayer.html id="4phSGm36z_8" %}
 Load Roll Die, sole programmer, art by Grant Doney and I
 
 
-{% include youtubePlayer.html id="r-LDfxb7lpM" %}<br>
+
+{% include youtubePlayer.html id="r-LDfxb7lpM" %}
 Grave Shadows, led team, programmed NPC AI, created narrative scripting tools, created yarnboard UI
+
 
 
 ![SimSwept](https://jordanfb.github.io/Images/HackerViewPrototypeHackComputer.gif)<br>
