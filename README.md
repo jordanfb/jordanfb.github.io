@@ -19,7 +19,7 @@ Check out my code at: [github.com/jordanfb](https://github.com/jordanfb)
 Contact me at: [jfaasbush@gmail.com](mailto:jfaasbush@gmail.com)
 
 ![LoadRollDieMap](https://jordanfaasbush.com/Images/livelyMapVideoTrimmedGifOptimized.gif)<br>
-![LoadRollDieMap](https://jordanfaasbush.com/Images/d10gifshowcase.gif)<br>
+![LoadRollDieDice](https://jordanfaasbush.com/Images/d10gifshowcase.gif)<br>
 {% include youtubePlayer.html id="4phSGm36z_8" %}
 Load Roll Die, sole programmer, art by Grant Doney and I
 
