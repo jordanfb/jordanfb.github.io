@@ -20,8 +20,8 @@ Contact me at: [jfaasbush@gmail.com](mailto:jfaasbush@gmail.com)
 
 ![LoadRollDieMap](https://jordanfaasbush.com/Images/livelyMapVideoTrimmedGifOptimized.gif)<br>
 ![LoadRollDieDice](https://jordanfaasbush.com/Images/d10gifshowcase.gif)<br>
-{% include youtubePlayer.html id="4phSGm36z_8" %}
-Load Roll Die, sole programmer, art by Grant Doney and I
+{% include youtubePlayer.html id="7xHh86qGfC8" %}
+Load Roll Die, sole programmer, art by Grant Doney and I. Released October 6th, 2021 on [Steam](https://store.steampowered.com/app/1410140/Load_Roll_Die/)
 
 
 
