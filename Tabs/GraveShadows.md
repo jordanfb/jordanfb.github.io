@@ -2,7 +2,7 @@
 title: Grave Shadows
 layout: default
 tabs: game
-tagline: The shadow is you
+tagline: E3 2019 College Game Finalist, 1 of 5 nationwide
 ---
 
 {% include youtubePlayer.html id="r-LDfxb7lpM" %}

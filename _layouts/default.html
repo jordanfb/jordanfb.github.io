@@ -45,8 +45,10 @@
       <h1 class="project-name">{{ page.title }}</h1>
       {% if page.url == "/" %}
       <h2 class="project-tagline">Programmer/Game Developer</h2>
-      {% else if page.tagline != null %}
+      {% elsif page.tagline != None %}
       <h2 class="project-tagline">{{ page.tagline }}</h2>
+      {% else %}
+      <h2 class="project-tagline">Made by Jordan</h2>
       {% endif %}
       <a href="/" class="btn">About</a>
       {% for subpage in site.pages %}
