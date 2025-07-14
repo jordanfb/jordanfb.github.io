@@ -22,6 +22,8 @@ Tools developed for editing [picoCAD](https://johanpeitz.itch.io/picocad) files,
 
 
 
+This page is still in progress, sorry!
+
 Asset Management Tool - Python, Go, AWS, MongoDB
 Inherited sole ownership of this tool. Managed assets (games, models, sounds, terrain, etc.) across the company. Coordinated content releases on live games. Improved tool performance 3x. Parallelized deploy types to prevent code release blockers. Sped up deployment to AWS for test environments.
 Automated Content Release Processes - Jenkins, Groovy, Bash

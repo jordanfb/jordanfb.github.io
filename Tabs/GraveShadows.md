@@ -12,3 +12,6 @@ I programmed the NPCs, the dialog system and tooling, and the detective yarnboar
 
 
 Grave Shadows, led team, programmed NPC AI, created narrative scripting tools, created yarnboard UI
+
+
+This page is still in progress, sorry!

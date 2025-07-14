@@ -21,3 +21,6 @@ Rolling Dice (zoomed in):
 ![LoadRollDieDice](https://jordanfaasbush.com/Images/d10gifshowcase.gif)<br>
 Overworld Map:
 ![LoadRollDieMap](https://jordanfaasbush.com/Images/livelyMapVideoTrimmedGifOptimized.gif)<br>
+
+
+This page is still in progress, sorry!
