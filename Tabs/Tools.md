@@ -13,7 +13,9 @@ Asset Management Tool|ControlZee|Python, Go, AWS, MongoDB|2022-2025
 Automated Content Releases|ControlZee|Jenkins, Groovy, Bash, CI/CD|2022-2025
 Automated Performance Testing|ControlZee|Jenkins, CI/CD, InfluxDB, Grafana|2024-2025
 Development Status Monitoring Site|ControlZee|Go, REST, GitHub|2023-2025
-
+Godot Mod Loader|Portable Train Game|GDScript, Godot|2024-2025
+Godot Non-Destructive Terrain Editing Tools|Portable Train Game|GDScript, GLSL, Godot|2024-2025
+picoCAD Modeling Tools||Python, C#, Unity|2022-2024
 
 
 Tools developed for editing [picoCAD](https://johanpeitz.itch.io/picocad) files, creator of both tools, implemented everything except for slight UI tweaks by Gokhan Solak
