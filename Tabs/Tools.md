@@ -9,22 +9,22 @@ During my time at <a href="https://controlzee.com" target="_blank">ControlZee</a
 
 Link|Project|Stack|Year
 ----|-----|----|----
-Asset Management Tool|ControlZee|Python, Go, AWS, MongoDB|2022-2025
-Automated Content Releases|ControlZee|Jenkins, Groovy, Bash, CI/CD|2022-2025
-Automated Performance Testing|ControlZee|Jenkins, CI/CD, InfluxDB, Grafana|2024-2025
-Development Status Monitoring Site|ControlZee|Go, REST, GitHub|2023-2025
-Godot Mod Loader|Portable Train Game|GDScript, Godot|2024-2025
-Godot Non-Destructive Terrain Editing Tools|Portable Train Game|GDScript, GLSL, Godot|2024-2025
-Floating Origin GPU Particle Grass|Portable Train Game|GDScript, GLSL, Godot|2024-2025
-Unofficial picoCAD Modeling Tools|picoCAD|Python, C#, Unity|2022-2024
+[Asset Management Tool](#asset-management-toolautomated-content-releases)|ControlZee|Python, Go, AWS, MongoDB|2022-2025
+[Automated Content Releases](#asset-management-toolautomated-content-releases)|ControlZee|Jenkins, Groovy, Bash, CI/CD|2022-2025
+[Automated Performance Testing](#automated-performance-testing)|ControlZee|Jenkins, CI/CD, InfluxDB, Grafana|2024-2025
+[Development Status Monitoring Site](#development-status-monitoring-site)|ControlZee|Go, REST, GitHub|2023-2025
+[Godot Mod Loader](#godot-mod-loader)|Portable Train Game|GDScript, Godot|2024-2025
+[Godot Non-Destructive Terrain Editing Tools](#non-destructive-terrain-editing-tool)|Portable Train Game|GDScript, GLSL, Godot|2024-2025
+[Floating Origin GPU Particle Grass](#floating-origin-gpu-particle-grass)|Portable Train Game|GDScript, GLSL, Godot|2024-2025
+[Unofficial picoCAD Modeling Tools](#unofficial-tools-for-picocad-file-editing)|picoCAD|Python, C#, Unity|2022-2024
 
 
-Tools developed for editing [picoCAD](https://johanpeitz.itch.io/picocad) files, creator of both tools, implemented everything except for slight UI tweaks by Gokhan Solak
+Tools developed for editing <a href="https://johanpeitz.itch.io/picocad" target=null>picoCAD</a> files, creator of both tools, implemented everything except for slight UI tweaks by Gokhan Solak
 ![picoCADPainter](https://jordanfb.github.io/Images/picoCADPainterScreenshot.png)
-![picoCADToolkit](https://jordanfb.github.io/Images/picoCADToolkitScreenshot.png)<br>
+![picoCADToolkit](https://jordanfb.github.io/Images/picoCADToolkitScreenshot.png)
 
 
-<h3>Asset Management Tool/Automated Content Releases</h3>
+# Asset Management Tool/Automated Content Releases
 Python, Go, AWS, MongoDB
 Jenkins, Groovy, Bash, CI/CD
 
@@ -41,15 +41,15 @@ While I could never remove the need for this tool entirely, I did my best to mak
 
 
 
-<h3>Automated Performance Testing</h3>
-Jenkins, CI/CD, InfluxDB, Grafana, Terraform
+# Automated Performance Testing
+Jenkins, CI/CD, InfluxDB, Grafana, Terraform, Docker
 
 At times ControlZee had upwards of seven internal developers building games and assets on the platform, and we worked with several external teams as well. We wanted to make sure that our games ran smoothly as we pushed the cutting edge of what our engine could do, as well as that any engine changes themselves resulted in consistent performance gains across our first party games and a variety of test games. I implemented an automated performance testing system that visualized and warned about performance changes across commits and asset changes. The system ingested a variety of datapoints into InfluxDB and visualized it in Grafana.
 
 
 
 
-<h3>Development Status Monitoring Site</h3>
+# Development Status Monitoring Site
 Go, REST, HTML, CSS, GitHub API, Jenkins API
 
 I developed an internal monitoring site to view the statuses of our environments, manage releases, and automate generating internal and external release notes. While a relatively simple project overall it did allow me to make a nice staging ground to let team members interact with Jenkins without needing to directly use Jenkins.
@@ -57,7 +57,7 @@ I developed an internal monitoring site to view the statuses of our environments
 
 
 
-<h3>Profanity Filter API</h3>
+# Profanity Filter API
 Python, REST
 
 I improved a basic API that the platform used to censor bad words in comments, chat, and asset naming. There are three main spots that I improved. The first issue I mitigated was that users were using some tricks to avoid the basic filters we had in place. I implemented a system that could support running multiple filtering methods at differing levels of strictness on the text to find hidden issues. The second issue I fixed was that our original system didn't support emoji or more complicated Unicode characters. Lastly I added additional smarter filtering that checked for people sharing personal information and made sure to filter that out. While censoring messages is a constant back and forth I certainly moved the needle in the correct direction.
@@ -65,47 +65,71 @@ I improved a basic API that the platform used to censor bad words in comments, c
 
 
 
-<h3>Godot Mod Loader</h3>
+# Godot Mod Loader
 Godot, GDScript, JSON
 
 One of the greatest challenges in mod support is how to handle multiple mods that change the same fields or even other mods. I implemented a mod loading system for my <a href="/Tabs/PortableTrainGame">train project</a> that supported exactly that. Rather than treating game content as self contained objects, I designed the JSON structures to function more like database operations. That way mods are able to not only create assets and callbacks but modifying existing ones. On top of that, implementing the ability to load assets at runtime (textures, models, data, scripts, etc.), to load loading scripts that can then load totally new asset types, and the ability to hotswap mods without restarting the game created an impressively moddable project that I am extremely proud of.
 
+A section of the mod config describing a locomotive in the game:
+
+<img src="/Images/mod_loader_json.png" width="75%" alt="Screenshot of mod config describing the configuration of a locomotive" /> <br>
 
 
 
-<h3>Non-Destructive Terrain Editing Tool</h3>
+
+# Non-Destructive Terrain Editing Tool
 Godot, GDScript, GLSL
 
 I strongly believe trains should have tunnels to drive through, so I knew it was essential to build a fully featured terrain system for my train project. At the same time I'm also of the opinion that standard heightmap painting tools are a cumbersome solution to the problem of both building mountains and naturally blending in structures and other objects into terrain. <a href="https://www.youtube.com/watch?v=YOtDVv5-0A4" target=null>The developers of Alba</a> mentioned they built an editor tool to generate terrain meshes out of component shapes. Inspired, I decided to take it a step or two further and non-destructively combine painted heightmaps and splatmaps with generated meshes that indicate both heightmap height, blend strength, and even splat map material at runtime. This allows player placed structures such as train tracks and buildings as well as larger terrain editing objects to all combine together smoothly at runtime without the need to hand paint each individual structure.
 
+Train tracks adjusting heightmap and splatmap automatically on a test map:
+
+<img src="/Images/portable_train_overview.png" width="75%" alt="Train tracks building up supporting terrain underneath them" /> <br>
 
 
 
-<h3>Floating Origin GPU Particle Grass</h3>
+
+# Floating Origin GPU Particle Grass
 Godot, GLSL, GDScript
 
 Since the train project's target device is a Steam Deck I can't count on the same level of performance as my desktop GPU. Consequently I was struggling to render my desired density of grass spread across the terrain even using classic systems like batched rendering. Inspired partially by <a href="https://gdcvault.com/play/1027214/Advanced-Graphics-Summit-Procedural-Grass" target=null>Ghost of Tsushima's</a> grass sytem I implemented a floating origin grass system that blends the best of both worlds combining high density nearby grass while avoiding excessive overdraw at further distances. Sampling my terrain splat map also allowed me to customize the grass parameters per material and to automatically prevent spawning grass inside objects. Combined with random offsets based on world coordinate and fading out at a distance, the grass is able to seamlessly stay focused on the player without any pop-in, even on a lower end device.
 
+Grass automatically accounting for the splat map material:
+
+<img src="/Images/portable_train_grass.png" width="75%" alt="Grass system in Godot accounting for terrain material" /> <br>
 
 
 
-<h3>Blender to Godot Foliage Pipeline</h3>
+
+# Blender to Godot Foliage Pipeline
 Blender, Python, Blender API, Godot, GLSL, GDScript
 
 I implemented a Python script in Blender to "fluff up" foliage and to store additional animation data in the vertex colors of meshes. Then I implemented the Godot side of the equation creating the shaders in the Godot shader language to display the end result. The resulting foliage blows in the wind in game and blends with lower detailed LOD meshes at a distance to smooth the transition to static meshes.
 
+Blender view of customized tree vertex colors:
+
+<img src="/Images/blender_tree_vert_pos.png" width="75%" alt="Tree in Blender using vertex colors to cue animation" /> <br>
+
+Breeze blowing a tree in engine:
+
+<img src="/Images/godot_tree_anim_optimization.gif" width="75%" alt="Tree in Godot rustling with the wind" /> <br>
 
 
 
-<h3>Godot Rocket Simulation</h3>
+
+# Godot Rocket Simulation
 Godot, GLSL, GDScript
 
 Inspired by <a href="https://www.gamedeveloper.com/programming/aerodynamics-of-just-cause-4" target=null>this article</a> on the aerodynamics systems of Just Cause 4 I decided to implement a similar system in Godot. Using a subviewport and custom shaders I approximated rocket aerodynamics in realtime. Since I was checking the visual profile of the object I was then able to customize the model at runtime to simulate control surfaces and play around with alternative rocket designs.
 
+Model rocket just about to launch (aerodynamic profile shown in the bottom left):
+
+<img src="/Images/rocket_simulation.png" width="75%" alt="A screenshot of a model rocket model in a park about to launch" /> <br>
 
 
 
-<h3>Unofficial Tools for picoCAD File Editing</h3>
+
+# Unofficial Tools for picoCAD File Editing
 Python, Unity, C#
 
 <a href="https://johanpeitz.itch.io/picocad" target=null>picoCAD</a> is a 3D modeling software made in PICO-8, a fantasy game console. It provides a creative tool to 3D model in a less imposing manner than Blender or Maya, but its limitations also mean that its users were looking for side tools to help them push the boundries as well as beginner friendly ways to achieve sometimes imposing tasks such as texture unwrapping and texturing.
@@ -122,10 +146,16 @@ picoCAD ToolKit:
 
 
 
-<h3>Art and Pipeline Tools for Load Roll Die</h3>
+# Art and Pipeline Tools for Load Roll Die
 Unity, C#, GitHub Actions
 
-Perhaps unsurprisingly for a developer with as many tools projects as I have, I implemented several tools during the development of <a href="/Tabs/LoadRollDie">Load Roll Die</a>. I started with some continuous delivery tools implemented in Github Actions to build the game for my target platforms and to deploy it to my playtesters on my itch.io page. I further implemented asset management tools to automatically generate necessary data types as well as to ensure my art and content assets were linked correctly. Last but not least I worked on several art tools to speed up art asset generation. The most obvious of those tools was a mesh generation tool that would build and UV unwrap the meshes for characters and locations on the overworld map given a texture with the cardboard outline shape hidden in the alpha channel.
+Perhaps unsurprisingly for a developer with as many tools projects as I have, I implemented several tools during the development of <a href="/Tabs/LoadRollDie">Load Roll Die</a>. I started with some continuous delivery tools implemented in Github Actions to build the game for my target platforms and to deploy it to my playtesters on my itch.io page. I further implemented asset management tools to automatically generate necessary data types as well as to ensure my art and content assets were linked correctly. Last but not least I worked on several art tools to speed up art asset generation. The most obvious of those tools was a mesh generation tool that would build and UV unwrap the meshes for characters and locations on the overworld map given a texture with the cardboard outline shape hidden in the alpha channel. Totally removing the need to open mesh editing software at all, the tool sped up art iteration and production speed immensely which was essential for the solo project.
 
 Load Roll Die overworld map:
 ![Load Roll Die Map](https://jordanfaasbush.com/Images/livelyMapVideoTrimmedGifOptimized.gif)
+
+
+# SteamSeer
+Python, Flask, Docker, PostgreSQL, Nginx, Steam Store API
+
+I developed <a href="https://steamseer.toothpike.com" target=null>a site</a> to help game developers get a better sense of the market. A recreation (with permission) of the concepts behind the site Steam Prophet by Lars Ducet, users predict how many reviews a game on Steam will earn in the first four weeks after release and the site tracks the results and reports back. With the goal of making it as accessible as possible the site has user accounts for cross device and longer term save data but also supports saving predictions directly in your browser for anonymous use.
