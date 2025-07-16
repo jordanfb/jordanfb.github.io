@@ -4,9 +4,9 @@ Based in Troy, New York. Looking for a local, hybrid, or remote software enginee
 
 <br>
 
-I've released a game on Steam, made tools with a couple thousand downloads, 
+I've released a game on Steam, made tools with a couple thousand downloads, and enticed you to click on this link. Knowing your exquisite taste I'm sure the third was the hardest. I always knew I was going to be a programmer but I didn't always know I was going to work in the games industry. What keeps me here is the cross discipline creativity, the interesting problems to solve, and the joy I get when something I made makes someone's day better. That's why I want to make tools to streamline your work.
 
-Here's my resume: [PDF](https://drive.google.com/file/d/1c2pYPh59pDyO9o0smuTyoJkJJCYdKWSx/view?usp=sharing)/[Google Doc](https://docs.google.com/document/d/1nBv9szHuwIFOZdpXpXpcxDF5yiCSN8jls1-q_kKc4Fo/edit?usp=sharing)
+Here's my general resume: [PDF](https://drive.google.com/file/d/1c2pYPh59pDyO9o0smuTyoJkJJCYdKWSx/view?usp=sharing)/[Google Doc](https://docs.google.com/document/d/1nBv9szHuwIFOZdpXpXpcxDF5yiCSN8jls1-q_kKc4Fo/edit?usp=sharing)
 
 Connect to me on LinkedIn [jordan-faas-bush](https://www.linkedin.com/in/jordan-faas-bush/)
 
@@ -17,8 +17,6 @@ See the <b>[tools](Tabs/Tools)</b> I've made professionally and the <b>[games](T
 <br>
 
 Check out my code at: [github.com/jordanfb](https://github.com/jordanfb)
-
-Check out my smaller games at: [jordanfb.itch.io](https://jordanfb.itch.io)
 
 ![LoadRollDieMap](https://jordanfaasbush.com/Images/livelyMapVideoTrimmedGifOptimized.gif)<br>
 ![LoadRollDieDice](https://jordanfaasbush.com/Images/d10gifshowcase.gif)<br>
