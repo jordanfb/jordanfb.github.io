@@ -12,7 +12,7 @@ Connect to me on LinkedIn <a href="https://www.linkedin.com/in/jordan-faas-bush/
 
 Contact me at: [jfaasbush@gmail.com](mailto:jfaasbush@gmail.com)
 
-See the <b>[tools](Tabs/Tools)</b> I've made professionally and the <b>[games](Tabs/Games)</b> I've released on Steam and elsewhere.
+See the <b>[tools](/Projects/Tools)</b> I've made professionally and the <b>[games](/Projects/Games)</b> I've released on Steam and elsewhere.
 
 <br>
 
