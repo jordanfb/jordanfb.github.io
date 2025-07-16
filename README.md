@@ -4,6 +4,8 @@ Based in Troy, New York. Looking for a local, hybrid, or remote software enginee
 
 <br>
 
+I've released a game on Steam, made tools with a couple thousand downloads, 
+
 Here's my resume: [PDF](https://drive.google.com/file/d/1c2pYPh59pDyO9o0smuTyoJkJJCYdKWSx/view?usp=sharing)/[Google Doc](https://docs.google.com/document/d/1nBv9szHuwIFOZdpXpXpcxDF5yiCSN8jls1-q_kKc4Fo/edit?usp=sharing)
 
 Connect to me on LinkedIn [jordan-faas-bush](https://www.linkedin.com/in/jordan-faas-bush/)
