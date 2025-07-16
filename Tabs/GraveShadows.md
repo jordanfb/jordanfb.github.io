@@ -33,4 +33,5 @@ Finalists all together (you may be able to spot me in the back row):
 
 <a href="https://x.com/E3/status/1139216127806939136#m" target=null>https://x.com/E3/status/1139216127806939136#m</a>
 <a href="https://xcancel.com/E3/status/1139216127806939136#m" target=null>https://xcancel.com/E3/status/1139216127806939136#m</a>
+
 <img src="/Images/e3_college_game_finalists_photo.png" width="50%" alt="E3 College Game Competition finalist teams posing for a photo" /> <br>
