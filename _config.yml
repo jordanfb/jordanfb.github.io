@@ -6,9 +6,6 @@ plugins:
 author:
   name: Jordan Faas-Bush
 feed:
+  tags: true
   categories:
     - toothpike
-    - changelogs
-    - load_roll_die
-    - new_games
-    - news
