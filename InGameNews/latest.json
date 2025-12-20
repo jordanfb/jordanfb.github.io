@@ -1,0 +1,23 @@
+{
+	"alternates":[
+		"https://jordanfaasbush.com/InGameNews/latest.json"
+	],
+	"links":{
+		"discord":"https://jordanfaasbush.com/links/toothpike_discord"
+	},
+	"latest":[
+		{
+			"timestamp":1766197779,
+			"v1":{
+				"timestamp":1766197779,
+				"teaser_title":"Test Post",
+				"header_image_url":"https://jordanfaasbush.com/Images/livelyMapVideoTrimmedGifOptimized.gif",
+				"title":"Test Post",
+				"text":"This is fantastic!\nWe LOVE how this works\nReally we do.",
+				"rich_text":"This is <i>fantastic!</i> <br><h1>We LOVE how this works</h1>\n<color=red>Really we do. Hopefully you never see this but if you do, sorry!",
+				"cta_url":"https://jordanfaasbush.com/links/toothpike_discord",
+				"cta_text":"Join the Discord!"
+			}
+		}
+	]
+}
