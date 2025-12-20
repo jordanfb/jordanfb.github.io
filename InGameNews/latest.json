@@ -17,6 +17,9 @@
 				"rich_text":"This is <i>fantastic!</i> <br><h1>We LOVE how this works</h1>\n<color=red>Really we do. Hopefully you never see this but if you do, sorry!",
 				"cta_url":"https://jordanfaasbush.com/links/toothpike_discord",
 				"cta_text":"Join the Discord!"
+			},
+			"v2":{
+				"just a test"
 			}
 		}
 	]
