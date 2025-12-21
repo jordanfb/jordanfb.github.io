@@ -11,10 +11,26 @@
 			"v1":{
 				"timestamp":1766197779,
 				"teaser_title":"Test Post",
-				"header_image_url":"https://jordanfaasbush.com/Images/livelyMapVideoTrimmedGifOptimized.gif",
+				"header_image_url":"https://jordanfaasbush.com/Images/LRD/capsule/giant_no_text.png",
 				"title":"Test Post",
 				"text":"This is fantastic!\nWe LOVE how this works\nReally we do.",
 				"rich_text":"This is <i>fantastic!</i> <br><h1>We LOVE how this works</h1>\n<color=red>Really we do. Hopefully you never see this but if you do, sorry!",
+				"cta_url":"https://jordanfaasbush.com/links/toothpike_discord",
+				"cta_text":"Join the Discord!"
+			},
+			"v2":{
+				"teaser_title":"just a test"
+			}
+		},
+		{
+			"timestamp":1766345025,
+			"v1":{
+				"timestamp":1766345025,
+				"teaser_title":"Test Post 2",
+				"header_image_url":"https://jordanfaasbush.com/Images/LRD/capsule/giant.png",
+				"title":"We love second posts!",
+				"text":"This is fantastic!\nWe LOVE how this works\nReally we do.",
+				"rich_text":"This is <i>fant<b>a</b>stic!</i> <br><h1>We LOVE how this works</h1>\n<color=red>Really we do. Hopefully you never see this but if you do, sorry!",
 				"cta_url":"https://jordanfaasbush.com/links/toothpike_discord",
 				"cta_text":"Join the Discord!"
 			},
