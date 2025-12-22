@@ -17,7 +17,9 @@
 				"text":"This is fantastic!\nWe LOVE how this works\nReally we do.",
 				"rich_text":"This is <i>fantastic!</i> <br><h1>We LOVE how this works</h1>\n<color=red>Really we do. Hopefully you never see this but if you do, sorry!",
 				"cta_url":"https://jordanfaasbush.com/links/toothpike_discord",
-				"cta_text":"Join the Discord!"
+				"cta_text":"Join the Discord!",
+				"tags":[],
+				"categories":[]
 			},
 			"v2":{
 				"teaser_title":"just a test"
@@ -33,7 +35,9 @@
 				"text":"This is fantastic!\nWe LOVE how this works\nReally we do.",
 				"rich_text":"This is <i>fant<b>a</b>stic!</i> <br><h1>We LOVE how this works</h1>\n<color=red>Really we do. Hopefully you never see this but if you do, sorry!",
 				"cta_url":"https://jordanfaasbush.com/links/toothpike_discord",
-				"cta_text":"Join the Discord!"
+				"cta_text":"Join the Discord!",
+				"tags":["news"],
+				"categories":[]
 			},
 			"v2":{
 				"teaser_title":"just a test"
